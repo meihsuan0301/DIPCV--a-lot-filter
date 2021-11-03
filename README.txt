@@ -16,8 +16,24 @@ Bilinear：h, w (ex 128,128 )
 
 Nearest：h, w (ex 128,128 )
 
-GaussianBlur：kernel size, sigema (ex 3 , 1.5)
+GaussianBlur：kernel size, sigema (ex 3 , 1.5)，kernel size please add odd number
 
-Averaging Filter：kernel size (ex 5)
+Averaging Filter：kernel size (ex 5)，kernel size choose：3,5,7
 
-Unsharp Maskimg：kernel size, method (ex 3, 'Gaussian_Blur')
+Laplacian Filter：kernel size (ex 5)，kernel size choose：3,5,7
+
+Sobel Filter：kernel size (ex 5)，kernel size choose：3,5,7
+
+statistic order filter：kernel size, method (ex 5, 'min')，method choose：'median','min','max'
+
+Bilateral filter：sigma_c, sigma_s, kernal_size, without_smooth (ex 5, 5, 3, False)
+
+nonLocalMeans Filter： bigWindow, smallWindow, h (ex 20, 5, 14)
+
+nonLocalMeans improve Filter：：bigWindowSize, smallWindowSize, sigma, alpha=0.6 (ex 20,5,0.5,0.6)
+
+Unsharp Maskimg：no
+
+Kernel_1 Filter：no
+
+Kernel_2 Filter：no
